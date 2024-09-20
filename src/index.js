@@ -8,7 +8,7 @@ import Registro from './componentes/zonaCliente/registroComponent/Registro';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Registro username='* introduce tu login' password='* introduce tu password'></Registro>
+    <Registro></Registro>
   </React.StrictMode>
 );
 
